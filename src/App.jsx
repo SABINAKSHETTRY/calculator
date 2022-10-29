@@ -51,6 +51,7 @@ function App() {
     return (
         <div className="App">
             {/* <div classname="calculator"> */}
+            <div className="title"><h1>CALCULATOR</h1></div>
             <div className="display">
                 {result ? <span>({result})</span> : ""}
                 {calc || "0"}
